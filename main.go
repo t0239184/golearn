@@ -1,17 +1,33 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
-	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
+
+	"github.com/t0239184/golearn/internal/database"
+	"github.com/t0239184/golearn/internal/router"
 )
 
-func main() {
-	r := gin.Default()
-	r.GET("/ping", ping)
-	r.Run()
+func init() {
+	log.Info("[main] init")
 }
 
-func ping(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"health": true})
+func main() {
+	var err error
+	db := database.InitDatabase()
+	engine := router.New(db)
+
+	addr := ":8080"
+	server := http.Server{
+		Addr:    addr,
+		Handler: engine,
+	}
+	err = server.ListenAndServe()
+	if err != nil {
+		log.Fatalf("[main] run - http.ListenAndServe failed: %v", err)
+	}
+
+	fmt.Println("Started Listening for plain HTTP connection on " + addr)
 }

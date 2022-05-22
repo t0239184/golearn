@@ -1,0 +1,40 @@
+time="2022-05-15 15:00:48" level=info msg=access http_status=200 ip=127.0.0.1 method=GET total_time=3.86585ms uri=/api/v1/user/1
+time="2022-05-15 15:18:34" level=info msg=access http_status=200 ip=127.0.0.1 method=GET total_time=25.355017ms uri=/api/v1/user/1
+time="2022-05-15 15:23:26" level=info msg=access http_status=200 ip=127.0.0.1 method=GET total_time=4.968936ms uri=/api/v1/user/1
+time="2022-05-15 15:30:45" level=info msg="[ReqResAopLogging] Response body: 200{\"Creator\":\"system\",\"CreateAt\":\"2022-05-14T07:51:03Z\",\"Updater\":\"\",\"UpdateAt\":\"0001-01-01T00:00:00Z\",\"Deleter\":\"\",\"DeleteAt\":\"0001-01-01T00:00:00Z\",\"IsDelete\":false,\"ID\":1,\"Account\":\"Alan1\",\"Password\":\"1qaz\",\"Status\":\"0\"}"
+time="2022-05-15 15:30:45" level=info msg=access http_status=200 ip=127.0.0.1 method=GET total_time=6.659746ms uri=/api/v1/user/1
+time="2022-05-15 15:33:26" level=info msg=access http_status=500 ip=127.0.0.1 method=GET total_time=4.480471ms uri=/api/v1/user/1
+time="2022-05-15 15:34:08" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-15 15:34:08" level=info msg=... X-Request-Id=974ae800-4b36-4b94-a29b-ebc38e321816
+time="2022-05-15 15:34:08" level=info msg="[Trace] request id: 974ae800-4b36-4b94-a29b-ebc38e321816"
+time="2022-05-15 15:34:08" level=info msg="[ReqResAopLogging] Response body: 200{\"Creator\":\"system\",\"CreateAt\":\"2022-05-14T07:51:03Z\",\"Updater\":\"\",\"UpdateAt\":\"0001-01-01T00:00:00Z\",\"Deleter\":\"\",\"DeleteAt\":\"0001-01-01T00:00:00Z\",\"IsDelete\":false,\"ID\":1,\"Account\":\"Alan1\",\"Password\":\"1qaz\",\"Status\":\"0\"}"
+time="2022-05-15 15:34:08" level=info msg="[Trace] Cost time: 4.841068ms"
+time="2022-05-15 15:34:08" level=info msg=access http_status=200 ip=127.0.0.1 method=GET total_time=4.857272ms uri=/api/v1/user/1
+time="2022-05-22 14:04:53" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:04:53" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 14:04:53" level=info msg="[Trace] Cost time: 81.908µs"
+time="2022-05-22 14:04:53" level=info msg=access http_status=200 ip=127.0.0.1 method=GET requestId=e546ad49-7a30-4bc6-ac97-cca6ce43bc30 total_time="96.469µs" uri=/sys/ping
+time="2022-05-22 14:10:43" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:10:43" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 14:10:43" level=info msg="[Trace] Cost time: 54.73µs"
+time="2022-05-22 14:10:43" level=info msg=access http_status=200 ip=127.0.0.1 method=GET requestId=c27f80e0-5f22-44d5-a276-075d17d07158 total_time="69.695µs" uri=/sys/ping
+time="2022-05-22 14:13:58" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:13:58" level=info msg="[ReqResAopLogging] Response body: 500{\"Number\":1062,\"Message\":\"Duplicate entry '' for key 'user.idx_account'\"}"
+time="2022-05-22 14:13:58" level=info msg="[Trace] Cost time: 73.153774ms"
+time="2022-05-22 14:13:58" level=info msg=access http_status=500 ip=127.0.0.1 method=POST requestId=7f275edf-4bc9-40b4-b3c4-ad3d5a8f7ed5 total_time=73.167396ms uri=/api/v1/user/
+time="2022-05-22 14:17:44" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:17:44" level=info msg="[ReqResAopLogging] Response body: 400\"Account should not be blank.\""
+time="2022-05-22 14:17:44" level=info msg="[Trace] Cost time: 188.236µs"
+time="2022-05-22 14:17:44" level=info msg=access http_status=400 ip=127.0.0.1 method=POST requestId=c4102ac7-f080-43fd-8810-33f8087bb305 total_time="202.066µs" uri=/api/v1/user/
+time="2022-05-22 14:23:41" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:23:41" level=info msg="[ReqResAopLogging] Response body: 200{\"code\":400,\"message\":\"Account or Password should not be blank.\",\"data\":null}"
+time="2022-05-22 14:23:41" level=info msg="[Trace] Cost time: 195.049µs"
+time="2022-05-22 14:23:41" level=info msg=access http_status=200 ip=127.0.0.1 method=POST requestId=3bdfe805-6587-486d-9183-b7afe6ace238 total_time="222.841µs" uri=/api/v1/user/
+time="2022-05-22 14:25:01" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:25:01" level=info msg="[ReqResAopLogging] Response body: 200{\"code\":400,\"message\":\"Account or Password should not be blank.\",\"data omitempty\":null}"
+time="2022-05-22 14:25:01" level=info msg="[Trace] Cost time: 2.832349ms"
+time="2022-05-22 14:25:01" level=info msg=access http_status=200 ip=127.0.0.1 method=POST requestId=0e5955f1-8e86-492e-90fc-eb0e7ad92387 total_time=2.849645ms uri=/api/v1/user/
+time="2022-05-22 14:25:39" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:25:39" level=info msg="[ReqResAopLogging] Response body: 200{\"code\":400,\"message\":\"Account or Password should not be blank.\"}"
+time="2022-05-22 14:25:39" level=info msg="[Trace] Cost time: 614.644µs"
+time="2022-05-22 14:25:39" level=info msg=access http_status=200 ip=127.0.0.1 method=POST requestId=bba6250e-9954-48dd-8671-6277480325f8 total_time="629.449µs" uri=/api/v1/user/

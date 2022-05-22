@@ -1,0 +1,32 @@
+time="2022-05-22 14:52:57" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:52:57" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 14:52:57" level=info msg="[Trace] Cost time: 73.143µs"
+time="2022-05-22 14:52:57" level=info msg=access http_status=200 ip= method=GET requestId=99372fd7-3ca7-4b37-85e5-b353e2d5b872 total_time="87.197µs" uri=
+time="2022-05-22 14:55:00" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:55:00" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 14:55:00" level=info msg="[Trace] Cost time: 88.906µs"
+time="2022-05-22 14:55:00" level=info msg=access http_status=200 ip= method=GET requestId=2e3c624c-eb97-4459-8bba-0db3cd6f6113 total_time="104.25µs" uri=
+time="2022-05-22 14:55:43" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:55:43" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 14:55:43" level=info msg="[Trace] Cost time: 107.479µs"
+time="2022-05-22 14:55:43" level=info msg=access http_status=200 ip= method=GET requestId=3ff0fe4e-af46-4863-9a58-a356a4724d0b total_time="129.014µs" uri=
+time="2022-05-22 14:56:17" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 14:56:17" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 14:56:17" level=info msg="[Trace] Cost time: 121.19µs"
+time="2022-05-22 14:56:17" level=info msg=access http_status=200 ip= method=GET requestId=afbb370f-8584-4a49-ac1c-84655647ddc4 total_time="158.287µs" uri=
+time="2022-05-22 15:23:28" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 15:23:28" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 15:23:28" level=info msg="[Trace] Cost time: 190.869µs"
+time="2022-05-22 15:23:28" level=info msg=access http_status=200 ip= method=GET requestId=dcba8ae7-f509-475e-817e-b74b01dac50f total_time="214.045µs" uri=
+time="2022-05-22 15:49:38" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 15:49:38" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 15:49:38" level=info msg="[Trace] Cost time: 143.95µs"
+time="2022-05-22 15:49:38" level=info msg=access http_status=200 ip= method=GET requestId=f188731c-85e1-4499-ba34-4c394a938461 total_time="192.188µs" uri=
+time="2022-05-22 15:51:25" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 15:51:25" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 15:51:25" level=info msg="[Trace] Cost time: 558.295µs"
+time="2022-05-22 15:51:25" level=info msg=access http_status=200 ip= method=GET requestId=06df70c9-f643-49c4-99c8-8ec8118cf48c total_time="614.678µs" uri=
+time="2022-05-22 15:51:47" level=info msg="[Trace] Generate UUID for Request."
+time="2022-05-22 15:51:47" level=info msg="[ReqResAopLogging] Response body: 200{\"health\":true}"
+time="2022-05-22 15:51:47" level=info msg="[Trace] Cost time: 203.025µs"
+time="2022-05-22 15:51:47" level=info msg=access http_status=200 ip= method=GET requestId=3fe3b7d5-01f7-43b2-963f-fccaeb625e4f total_time="235.888µs" uri=
